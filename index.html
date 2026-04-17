@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Prashanth | Senior Cloud & Infrastructure Leader</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0d1117;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+            --text-main: #e6edf3;
+            --text-dim: #8b949e;
+            --accent: #58a6ff;
+            --success: #3fb950;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .mono { font-family: 'Fira+Code', monospace; }
+        .gradient-text {
+            background: linear-gradient(90deg, #58a6ff, #bc8cff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+        .cursor-blink {
+            display: inline-block;
+            width: 8px;
+            height: 1.2em;
+            background: var(--accent);
+            animation: blink 1s step-end infinite;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+        .badge {
+            background: rgba(88, 166, 255, 0.1);
+            color: var(--accent);
+            border: 1px solid rgba(88, 166, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-[#0d1117]/80 backdrop-blur-md border-b border-[#30363d]">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="mono text-sm text-[#58a6ff]">arvind@prashanth:~$</div>
+            <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest font-semibold text-[#8b949e]">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#stats" class="hover:text-white transition">Impact</a>
+                <a href="#work" class="hover:text-white transition">Case Studies</a>
+                <a href="#skills" class="hover:text-white transition">Toolkit</a>
+                <a href="mailto:arvindprashanth@hotmail.com" class="text-[#3fb950] hover:underline transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 pt-12 pb-24">
+        
+        <!-- Hero Section -->
+        <section id="about" class="mb-24">
+            <div class="inline-block px-3 py-1 mb-6 rounded-full border border-[#30363d] bg-[#161b22] text-[10px] uppercase tracking-widest text-[#3fb950] font-bold">
+                // senior_cloud_consultant_2025
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+                Engineering reliability<br>
+                <span class="gradient-text leading-relaxed">at enterprise scale.</span>
+            </h1>
+            <div class="max-w-2xl text-[#8b949e] leading-relaxed text-base md:text-lg mb-8">
+                <p class="mb-4">
+                    A seasoned IT professional with over <span class="text-white font-semibold italic">"19+ years"</span> of experience spanning across cloud operations, network, infrastructure management, and team leadership. In my last role, I ensured infrastructure was perfect for the cloud.
+                </p>
+                <p>
+                    I have managed teams in excess of 40 resources located across different geographies. Lead migration of 3,000+ systems to Azure and AVS. Eliminated 40% of manual workloads through automation across private and public cloud environments. I bridge the gap between legacy stability and AI-driven governance. 
+                </p>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <a href="Mailto:arvindprashanth@hotmail.com | Cell:+91 99169 74155" class="bg-[#238636] hover:bg-[#2ea043] text-white px-6 py-3 rounded-md font-bold text-sm transition shadow-lg">
+                    $ Lets Connect
+                </a>
+                <a href="https://www.linkedin.com/in/arvind-prashanth-03a787225/" target="_blank" class="border border-[#30363d] hover:bg-[#161b22] text-[#e6edf3] px-6 py-3 rounded-md font-bold text-sm transition">
+                    View LinkedIn
+                </a>
+            </div>
+        </section>
+
+        <!-- Stats Grid -->
+        <section id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-24">
+            <div class="card p-6 rounded-lg text-center">
+                <div class="text-3xl font-bold text-[#58a6ff] mb-1">3,000+</div>
+                <div class="text-[10px] uppercase tracking-wider text-[#8b949e]">Systems Migrated</div>
+            </div>
+            <div class="card p-6 rounded-lg text-center">
+                <div class="text-3xl font-bold text-[#58a6ff] mb-1">40%</div>
+                <div class="text-[10px] uppercase tracking-wider text-[#8b949e]">Manual Toil Reduced</div>
+            </div>
+            <div class="card p-6 rounded-lg text-center">
+                <div class="text-3xl font-bold text-[#58a6ff] mb-1">1,400+</div>
+                <div class="text-[10px] uppercase tracking-wider text-[#8b949e]">Global Sites Managed</div>
+            </div>
+            <div class="card p-6 rounded-lg text-center">
+                <div class="text-3xl font-bold text-[#58a6ff] mb-1">19+</div>
+                <div class="text-[10px] uppercase tracking-wider text-[#8b949e]">Years Excellence</div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section id="work" class="mb-24">
+            <h2 class="mono text-xs text-[#3fb950] mb-8 uppercase tracking-[0.2em] font-bold">/ cases_studies /</h2>
+            
+            <div class="space-y-6">
+                <!-- Case 1 -->
+                <div class="card p-8 rounded-xl border-l-4 border-l-[#58a6ff]">
+                    <div class="text-[10px] text-[#3fb950] mb-2 uppercase font-bold">Azure Transformation</div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Migration Factory: 3,000+ Workloads</h3>
+                    <p class="text-[#8b949e] text-sm mb-6 leading-relaxed">
+                        Orchestrated a massive data center transformation as a Senior Consultant. Colloboratively developed a "Migration Factory" model utilizing Six Sigma principles to move 3,000+ systems from legacy private clouds into Azure and AVS. Achieved 100% success rate on critical service cut-overs.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Azure</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">VMware</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">AVS</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Six Sigma</span>
+                    </div>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="card p-8 rounded-xl border-l-4 border-l-[#58a6ff]">
+                    <div class="text-[10px] text-[#3fb950] mb-2 uppercase font-bold">Automation & SRE</div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Cognitive Robotics Integration</h3>
+                    <p class="text-[#8b949e] text-sm mb-6 leading-relaxed">
+                        Collaborated with robotics teams to deploy intelligent bots for proactive VM resource utilization monitoring. This initiative eliminated Tier 3 dependency for routine incidents and reinforced SRE best practices across the environment.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">AI Bots</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Python</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Automation</span>
+                    </div>
+                </div>
+
+                <!-- Case 3 -->
+                <div class="card p-8 rounded-xl border-l-4 border-l-[#58a6ff]">
+                    <div class="text-[10px] text-[#3fb950] mb-2 uppercase font-bold">Network & Security</div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Global Retail Infrastructure Security</h3>
+                    <p class="text-[#8b949e] text-sm mb-6 leading-relaxed">
+                        Managed infrastructure for 1,400+ stores. Applied critical Log4j remediations across 400+ devices with 100% compliance. Automated IPAM requests, reducing manual workload by 20% and improving fulfillment speeds across global units.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Cisco Meraki</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">Log4j</span>
+                        <span class="badge px-3 py-1 rounded-full text-[10px] mono">SolarWinds</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Grid -->
+        <section id="skills" class="mb-24">
+            <h2 class="mono text-xs text-[#3fb950] mb-8 uppercase tracking-[0.2em] font-bold">/ technical_toolkit /</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Cloud Infrastructure
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">Azure, OCI (Oracle), AWS, AVS, VMware, Cloudbolt, Hybrid-Cloud Orchestration.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Network Engineering
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">Cisco, Meraki, Aruba, SD-WAN (VeloCloud), IPAM (Infoblox, VitalQIP).</p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Security & IAM
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">SailPoint, CyberArk, PAM, Vulnerability Remediation (Qualys, Tenable, Tanium).</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Governance & Process
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">Six Sigma White Belt, ITIL v3, ISO/SOC Audits, Change Mgmt, RACI Matrix, RCA/PIR documentation.</p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Leadership
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">Managing 40+ resources, Connected Manager certified, Stakeholder Mgmt, 24x7 Global Ops.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white font-bold mb-3 text-sm flex items-center">
+                            <span class="mr-2 text-[#58a6ff]">▹</span> Legacy Systems
+                        </h4>
+                        <p class="text-xs text-[#8b949e] leading-relaxed">Mainframe Batch Processing, Mainframe Improvement Initiatives, British Telecom support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Footer Section -->
+        <section class="mb-12">
+            <h2 class="mono text-xs text-[#3fb950] mb-8 uppercase tracking-[0.2em] font-bold">/ certifications /</h2>
+            <div class="flex flex-wrap gap-4">
+                <div class="px-4 py-3 rounded bg-[#161b22] border border-[#30363d] flex items-center space-x-3">
+                    <span class="text-xs font-bold text-white">Azure Fundamentals</span>
+                    <span class="text-[10px] text-[#8b949e]">2025</span>
+                </div>
+                <div class="px-4 py-3 rounded bg-[#161b22] border border-[#30363d] flex items-center space-x-3">
+                    <span class="text-xs font-bold text-white">Six Sigma White Belt</span>
+                    <span class="text-[10px] text-[#8b949e]">2025</span>
+                </div>
+                <div class="px-4 py-3 rounded bg-[#161b22] border border-[#30363d] flex items-center space-x-3">
+                    <span class="text-xs font-bold text-white">OCI Foundations</span>
+                    <span class="text-[10px] text-[#8b949e]">2023</span>
+                </div>
+                <div class="px-4 py-3 rounded bg-[#161b22] border border-[#30363d] flex items-center space-x-3">
+                    <span class="text-xs font-bold text-white">ITIL v3</span>
+                    <span class="text-[10px] text-[#8b949e]">2016</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="max-w-5xl mx-auto px-6 py-12 border-t border-[#30363d] flex flex-col md:flex-row justify-between items-center text-[#8b949e] text-xs">
+        <div class="mb-4 md:mb-0 mono">
+            © 2025 Arvind Prashanth | // built_with_azure
+        </div>
+        <div class="flex space-x-6">
+            <a href="mailto:arvindprashanth@hotmail.com" class="hover:text-white transition">Email</a>
+            <a href="https://www.linkedin.com/in/arvind-prashanth-03a787225/" class="hover:text-white transition">LinkedIn</a>
+            <a href="#" class="hover:text-white transition">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>
